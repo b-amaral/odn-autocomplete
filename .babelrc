@@ -1,0 +1,14 @@
+{
+  "env": {
+    "development": {
+      "presets": ["env"],
+      "plugins": [
+        "add-module-exports"
+      ]
+    },
+    "production": {
+      "presets": ["@babel/preset-env", "minify"],
+      "plugins": ["@babel/plugin-proposal-object-rest-spread", "add-module-exports"]
+    }
+  }
+}
