@@ -4,7 +4,7 @@
   "description": "A Quasar Framework app",
   "productName": "Quasar App",
   "cordovaId": "org.cordova.quasar.app",
-  "author": "Bruno Amaral <bruno-mattia@hotmail.com>",
+  "author": "Bruno Amaral",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
